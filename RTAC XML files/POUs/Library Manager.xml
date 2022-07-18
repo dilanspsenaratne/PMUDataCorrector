@@ -1,0 +1,181 @@
+<RTACModule>
+  <LogicEngineObject>
+    <Name>Library Manager</Name>
+    <Type>LibraryManager</Type>
+    <ArchivedContent><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Single xml:space="preserve" Type="{adb5cb65-8e1d-4a00-b70a-375ea27582f3}" Method="IArchivable">
+  <List Name="Items" Type="System.Collections.ArrayList">
+    <Single Type="{4723ebe7-5bfc-43c6-be6b-5097002ef6b4}" Method="IArchivable">
+      <Single Name="DefaultResolution" Type="string">DescriptiveData, 3.5.1.0 (SEL)</Single>
+      <Single Name="Optional" Type="bool">False</Single>
+      <Array Name="Params" Type="{e38db981-1fbe-4d68-b5b0-d55ca6086daa}" />
+      <Single Name="PlaceholderName" Type="string">DescriptiveData</Single>
+      <Single Name="ResolverGuid" Type="System.Guid">b303f5ce-75ff-4668-a777-7da8debb449c</Single>
+      <Single Name="Id" Type="long">1735855613</Single>
+      <Single Name="Namespace" Type="string">DescriptiveData</Single>
+      <Single Name="SystemLibrary" Type="bool">False</Single>
+      <Single Name="HideWhenReferencedAsDependency" Type="bool">False</Single>
+      <Single Name="PublishSymbolsInContainer" Type="bool">False</Single>
+      <Single Name="QualifiedOnly" Type="bool">False</Single>
+      <Single Name="LinkAllContent" Type="bool">False</Single>
+    </Single>
+    <Single Type="{4723ebe7-5bfc-43c6-be6b-5097002ef6b4}" Method="IArchivable">
+      <Single Name="DefaultResolution" Type="string">DynamicVectors, 3.5.3.0 (SEL)</Single>
+      <Single Name="Optional" Type="bool">False</Single>
+      <Array Name="Params" Type="{e38db981-1fbe-4d68-b5b0-d55ca6086daa}">
+        <Single Type="{e38db981-1fbe-4d68-b5b0-d55ca6086daa}" Method="IArchivable">
+          <Single Name="Name" Type="string">G_P_DEFAULTVECTORSIZE</Single>
+          <Single Name="Exp" Type="{88513019-926a-4125-ab4f-260cf5e4c63e}" Method="IArchivable">
+            <Null Name="Type" />
+            <Single Name="PositionToSave" Type="long">12947848928690180</Single>
+            <Array Name="MessagesToSave" Type="{bc2be951-49f6-4f0f-b731-e31e36606f1e}" />
+            <Single Name="LongValue" Type="long">32</Single>
+            <Single Name="TypeClass" Type="{16f7aa24-038f-444e-9d81-b001bc091d35}">AnyInt</Single>
+            <Single Name="Negative" Type="bool">False</Single>
+            <Single Name="OriginalTypeClass" Type="{16f7aa24-038f-444e-9d81-b001bc091d35}">AnyInt</Single>
+          </Single>
+        </Single>
+      </Array>
+      <Single Name="PlaceholderName" Type="string">DynamicVectors</Single>
+      <Single Name="ResolverGuid" Type="System.Guid">b303f5ce-75ff-4668-a777-7da8debb449c</Single>
+      <Single Name="Id" Type="long">3156130948</Single>
+      <Single Name="Namespace" Type="string">DynamicVectors</Single>
+      <Single Name="SystemLibrary" Type="bool">False</Single>
+      <Single Name="HideWhenReferencedAsDependency" Type="bool">False</Single>
+      <Single Name="PublishSymbolsInContainer" Type="bool">False</Single>
+      <Single Name="QualifiedOnly" Type="bool">False</Single>
+      <Single Name="LinkAllContent" Type="bool">False</Single>
+    </Single>
+    <Single Type="{4723ebe7-5bfc-43c6-be6b-5097002ef6b4}" Method="IArchivable">
+      <Single Name="DefaultResolution" Type="string">FileIo, 3.5.6.2 (SEL)</Single>
+      <Single Name="Optional" Type="bool">False</Single>
+      <Array Name="Params" Type="{e38db981-1fbe-4d68-b5b0-d55ca6086daa}">
+        <Single Type="{e38db981-1fbe-4d68-b5b0-d55ca6086daa}" Method="IArchivable">
+          <Single Name="Name" Type="string">G_P_FILEIO_MAXBUFFERSIZE</Single>
+          <Single Name="Exp" Type="{88513019-926a-4125-ab4f-260cf5e4c63e}" Method="IArchivable">
+            <Null Name="Type" />
+            <Single Name="PositionToSave" Type="long">11258999068426247</Single>
+            <Array Name="MessagesToSave" Type="{bc2be951-49f6-4f0f-b731-e31e36606f1e}" />
+            <Single Name="LongValue" Type="long">10485760</Single>
+            <Single Name="TypeClass" Type="{16f7aa24-038f-444e-9d81-b001bc091d35}">AnyInt</Single>
+            <Single Name="Negative" Type="bool">False</Single>
+            <Single Name="OriginalTypeClass" Type="{16f7aa24-038f-444e-9d81-b001bc091d35}">AnyInt</Single>
+          </Single>
+        </Single>
+      </Array>
+      <Single Name="PlaceholderName" Type="string">FileIo</Single>
+      <Single Name="ResolverGuid" Type="System.Guid">b303f5ce-75ff-4668-a777-7da8debb449c</Single>
+      <Single Name="Id" Type="long">328068985</Single>
+      <Single Name="Namespace" Type="string">FileIo</Single>
+      <Single Name="SystemLibrary" Type="bool">False</Single>
+      <Single Name="HideWhenReferencedAsDependency" Type="bool">False</Single>
+      <Single Name="PublishSymbolsInContainer" Type="bool">False</Single>
+      <Single Name="QualifiedOnly" Type="bool">False</Single>
+      <Single Name="LinkAllContent" Type="bool">False</Single>
+    </Single>
+    <Single Type="{4723ebe7-5bfc-43c6-be6b-5097002ef6b4}" Method="IArchivable">
+      <Single Name="DefaultResolution" Type="string">MathComplex, 3.5.1.0 (SEL)</Single>
+      <Single Name="Optional" Type="bool">False</Single>
+      <Array Name="Params" Type="{e38db981-1fbe-4d68-b5b0-d55ca6086daa}" />
+      <Single Name="PlaceholderName" Type="string">MathComplex</Single>
+      <Single Name="ResolverGuid" Type="System.Guid">b303f5ce-75ff-4668-a777-7da8debb449c</Single>
+      <Single Name="Id" Type="long">808635201</Single>
+      <Single Name="Namespace" Type="string">MathComplex</Single>
+      <Single Name="SystemLibrary" Type="bool">False</Single>
+      <Single Name="HideWhenReferencedAsDependency" Type="bool">False</Single>
+      <Single Name="PublishSymbolsInContainer" Type="bool">False</Single>
+      <Single Name="QualifiedOnly" Type="bool">False</Single>
+      <Single Name="LinkAllContent" Type="bool">False</Single>
+    </Single>
+    <Single Type="{4723ebe7-5bfc-43c6-be6b-5097002ef6b4}" Method="IArchivable">
+      <Single Name="DefaultResolution" Type="string">MathMatrix, 3.5.2.0 (SEL)</Single>
+      <Single Name="Optional" Type="bool">False</Single>
+      <Array Name="Params" Type="{e38db981-1fbe-4d68-b5b0-d55ca6086daa}" />
+      <Single Name="PlaceholderName" Type="string">MathMatrix</Single>
+      <Single Name="ResolverGuid" Type="System.Guid">b303f5ce-75ff-4668-a777-7da8debb449c</Single>
+      <Single Name="Id" Type="long">4033522765</Single>
+      <Single Name="Namespace" Type="string">MathMatrix</Single>
+      <Single Name="SystemLibrary" Type="bool">False</Single>
+      <Single Name="HideWhenReferencedAsDependency" Type="bool">False</Single>
+      <Single Name="PublishSymbolsInContainer" Type="bool">False</Single>
+      <Single Name="QualifiedOnly" Type="bool">False</Single>
+      <Single Name="LinkAllContent" Type="bool">False</Single>
+    </Single>
+    <Single Type="{4723ebe7-5bfc-43c6-be6b-5097002ef6b4}" Method="IArchivable">
+      <Single Name="DefaultResolution" Type="string">Queue, 3.5.3.0 (SEL)</Single>
+      <Single Name="Optional" Type="bool">False</Single>
+      <Array Name="Params" Type="{e38db981-1fbe-4d68-b5b0-d55ca6086daa}">
+        <Single Type="{e38db981-1fbe-4d68-b5b0-d55ca6086daa}" Method="IArchivable">
+          <Single Name="Name" Type="string">G_P_DEFAULTQUEUESIZE</Single>
+          <Single Name="Exp" Type="{88513019-926a-4125-ab4f-260cf5e4c63e}" Method="IArchivable">
+            <Null Name="Type" />
+            <Single Name="PositionToSave" Type="long">10133099161583620</Single>
+            <Array Name="MessagesToSave" Type="{bc2be951-49f6-4f0f-b731-e31e36606f1e}" />
+            <Single Name="LongValue" Type="long">32</Single>
+            <Single Name="TypeClass" Type="{16f7aa24-038f-444e-9d81-b001bc091d35}">AnyInt</Single>
+            <Single Name="Negative" Type="bool">False</Single>
+            <Single Name="OriginalTypeClass" Type="{16f7aa24-038f-444e-9d81-b001bc091d35}">AnyInt</Single>
+          </Single>
+        </Single>
+      </Array>
+      <Single Name="PlaceholderName" Type="string">Queue</Single>
+      <Single Name="ResolverGuid" Type="System.Guid">b303f5ce-75ff-4668-a777-7da8debb449c</Single>
+      <Single Name="Id" Type="long">2500558855</Single>
+      <Single Name="Namespace" Type="string">Queue</Single>
+      <Single Name="SystemLibrary" Type="bool">False</Single>
+      <Single Name="HideWhenReferencedAsDependency" Type="bool">False</Single>
+      <Single Name="PublishSymbolsInContainer" Type="bool">False</Single>
+      <Single Name="QualifiedOnly" Type="bool">False</Single>
+      <Single Name="LinkAllContent" Type="bool">False</Single>
+    </Single>
+    <Single Type="{4723ebe7-5bfc-43c6-be6b-5097002ef6b4}" Method="IArchivable">
+      <Single Name="DefaultResolution" Type="string">Quicksort, 3.5.1.0 (SEL)</Single>
+      <Single Name="Optional" Type="bool">False</Single>
+      <Array Name="Params" Type="{e38db981-1fbe-4d68-b5b0-d55ca6086daa}" />
+      <Single Name="PlaceholderName" Type="string">Quicksort</Single>
+      <Single Name="ResolverGuid" Type="System.Guid">b303f5ce-75ff-4668-a777-7da8debb449c</Single>
+      <Single Name="Id" Type="long">313176731</Single>
+      <Single Name="Namespace" Type="string">Quicksort</Single>
+      <Single Name="SystemLibrary" Type="bool">False</Single>
+      <Single Name="HideWhenReferencedAsDependency" Type="bool">False</Single>
+      <Single Name="PublishSymbolsInContainer" Type="bool">False</Single>
+      <Single Name="QualifiedOnly" Type="bool">False</Single>
+      <Single Name="LinkAllContent" Type="bool">False</Single>
+    </Single>
+    <Single Type="{4723ebe7-5bfc-43c6-be6b-5097002ef6b4}" Method="IArchivable">
+      <Single Name="DefaultResolution" Type="string">SEL IEC Types, 3.5.0.0 (SEL)</Single>
+      <Single Name="Optional" Type="bool">False</Single>
+      <Array Name="Params" Type="{e38db981-1fbe-4d68-b5b0-d55ca6086daa}" />
+      <Single Name="PlaceholderName" Type="string">SEL IEC Types</Single>
+      <Single Name="ResolverGuid" Type="System.Guid">b303f5ce-75ff-4668-a777-7da8debb449c</Single>
+      <Single Name="Id" Type="long">1012552016</Single>
+      <Single Name="Namespace" Type="string">SEL_IEC_Types</Single>
+      <Single Name="SystemLibrary" Type="bool">False</Single>
+      <Single Name="HideWhenReferencedAsDependency" Type="bool">False</Single>
+      <Single Name="PublishSymbolsInContainer" Type="bool">False</Single>
+      <Single Name="QualifiedOnly" Type="bool">False</Single>
+      <Single Name="LinkAllContent" Type="bool">False</Single>
+    </Single>
+    <Single Type="{4723ebe7-5bfc-43c6-be6b-5097002ef6b4}" Method="IArchivable">
+      <Single Name="DefaultResolution" Type="string">SysMem, 3.5.12.0 (System)</Single>
+      <Single Name="Optional" Type="bool">False</Single>
+      <Array Name="Params" Type="{e38db981-1fbe-4d68-b5b0-d55ca6086daa}" />
+      <Single Name="PlaceholderName" Type="string">SysMem</Single>
+      <Single Name="ResolverGuid" Type="System.Guid">b303f5ce-75ff-4668-a777-7da8debb449c</Single>
+      <Single Name="Id" Type="long">2859618631</Single>
+      <Single Name="Namespace" Type="string">SysMem</Single>
+      <Single Name="SystemLibrary" Type="bool">False</Single>
+      <Single Name="HideWhenReferencedAsDependency" Type="bool">False</Single>
+      <Single Name="PublishSymbolsInContainer" Type="bool">False</Single>
+      <Single Name="QualifiedOnly" Type="bool">False</Single>
+      <Single Name="LinkAllContent" Type="bool">False</Single>
+    </Single>
+  </List>
+  <Dictionary Type="System.Collections.Hashtable" Name="PlaceholderRedirectionTable" />
+</Single>]]></ArchivedContent>
+    <Metadata><![CDATA[<Single xml:space="preserve" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+  <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
+  <Single Name="TypeGuid" Type="System.Guid">adb5cb65-8e1d-4a00-b70a-375ea27582f3</Single>
+</Single>]]></Metadata>
+  </LogicEngineObject>
+</RTACModule>

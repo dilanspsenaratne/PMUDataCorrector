@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <GVL>
+    <ExportSource>
+      <Schema>29</Schema>
+      <DeviceMOT>3555</DeviceMOT>
+    </ExportSource>
+    <Name>GVL1</Name>
+    <Content><![CDATA[VAR_GLOBAL
+	isAttack : BOOL;
+	y_hat_send : ARRAY [0 .. Length_max_large_GB-1] OF CMV;					/// A array to send Data correction results
+	solution_deg_final : ARRAY [0 .. Length_max_low_GB-1] OF REAL;
+END_VAR
+]]></Content>
+  </GVL>
+</RTACModule>
