@@ -57,10 +57,10 @@ For the library the user will need ACSELERATOR RTAC® SEL-5033 Software with fir
 
 #### Install the compiled library
 The user will need to follow the following steps to install the provided compiled library to SEL RTAC
-- Insert -> under the user logic select IEC 61131-3 -> Library
-- Click on Manage Libraries
-- Click on Install New... and browse to the compiled library
-- Close Manage Logic Engine Libraries window
+- Insert -> under the user logic select "IEC 61131-3" -> Library
+- Click on "Manage Libraries"
+- Click on "Install New..." and browse to "DataCorrector.compiled-library"
+- Close "Manage Logic Engine Libraries" window
 - Select "OSU DataCorrector 1.0.0.11"
 
 #### Start a project with library source code
