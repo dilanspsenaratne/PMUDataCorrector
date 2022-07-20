@@ -70,6 +70,7 @@ The user will need to follow the following steps to install the provided compile
 Click on "Import" and browse to "RTAC_DataCorrector_Library.exp"
 
 - Method 2 (Using XML files)
+
 Create a new project with Project type "XML" and browse to the "RTAC XML files" folder
 
 
