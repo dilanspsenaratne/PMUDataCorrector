@@ -1,0 +1,5 @@
+Executing script C:\OPAL-RT\RT-LAB\2021.2\common\python\rtlab\global\host_subsys_postreset.py ... done
+ - sm_master host postreset 1 of 1 [C:/OPAL-RT/RT-LAB/2021.2/python/python.exe -u "C:/OPAL-RT/RT-LAB/2021.2/common/python/opal/ephasorsim/eph_gui.py" --delete --name="System_20220515" --epname="System" --solver="RTS96_pins_simple_v2" --url=10.214.153.69:25588/resources/root]
+[System_20220515] Removing simulation
+[System_20220515] Simulation doesn't exist
+ - sm_master host postreset 1 of 1 successful

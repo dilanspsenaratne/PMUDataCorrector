@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+    <General>
+        <att_name>StateEstimator_21_PMUs</att_name>
+        <att_description>This is a project!</att_description>
+        <att_ip_address>10.214.154.11:25251</att_ip_address>
+        <att_hashcode>C8362767-6B5A-4CAB-90CF-F5917A09E278</att_hashcode>
+        <att_autosave>ON</att_autosave>
+        <att_project_locked>0</att_project_locked>
+        <att_filename>C:\Users\sudo\OPAL-RT\RT-LABv2021.2_Workspace\StateEstimator_21_PMUs\StateEstimator_21_PMUs.llp</att_filename>
+    </General>
+    <Optionals>
+        <att_donotask_loadcfg_at_prjopen>0</att_donotask_loadcfg_at_prjopen>
+        <att_matlab_compile_outprocess>OFF</att_matlab_compile_outprocess>
+    </Optionals>
+    <Models>
+        <Model>
+            <Path>
+                <Relative>models/System_20220515/System_20220515.slx</Relative>
+                <Absolute>C:/Users/sudo/OPAL-RT/RT-LABv2021.2_Workspace/StateEstimator_21_PMUs/models/System_20220515/System_20220515.slx</Absolute>
+                <UNC>C:/Users/sudo/OPAL-RT/RT-LABv2021.2_Workspace/StateEstimator_21_PMUs/models/System_20220515/System_20220515.slx</UNC>
+            </Path>
+        </Model>
+    </Models>
+</Project>

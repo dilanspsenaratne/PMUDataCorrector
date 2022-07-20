@@ -1,0 +1,14 @@
+[
+  {"version":2},
+  {
+    "Opal::Simulation::SerializeableLoadParamList":
+    {
+      "name":"C8EA6F2E-628D-4611-8041-2C0C012FBE1F",
+      "loadParamSets":
+      [
+        "System_20220515.slx"
+      ],
+      "parent":"/"
+    }
+  }
+]

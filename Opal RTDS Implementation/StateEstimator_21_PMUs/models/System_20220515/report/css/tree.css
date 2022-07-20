@@ -1,0 +1,59 @@
+.property {
+    padding-left: 7px;
+    font-family: Verdana;
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+	
+}
+
+.property:before {
+	content: '\16EB';
+	color: black;
+	font-weight: bold;
+	float: left;
+	margin-right: 5px;
+}
+
+.property:hover {
+	font-weight: bold;
+}
+
+.textlog {
+	font-family: monospace;
+}
+
+.collapsible {
+	background-color: #58B;
+	color: white;
+	cursor: pointer;
+	padding: 5px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+
+.active, .collapsible:hover {
+	background-color: #58E;
+}
+
+.collapsible:before {
+	content: '\002B';
+	color: white;
+	font-weight: bold;
+	float: left;
+	margin-right: 15px;
+}
+
+.active:before {
+	content: "\2212";
+}
+
+.content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+}

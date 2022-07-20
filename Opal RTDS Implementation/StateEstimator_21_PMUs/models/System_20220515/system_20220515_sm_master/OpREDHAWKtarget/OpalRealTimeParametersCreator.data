@@ -1,0 +1,990 @@
+sm_master/PMU102_signals/Spoofing attack/Constant/pmu_102
+/
+
+0
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Constant/pmu_103
+/
+
+1
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Constant/pmu_107
+/
+
+2
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Constant/pmu_110
+/
+
+3
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Constant/pmu_116
+/
+
+4
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Constant/pmu_121
+/
+
+5
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Constant/pmu_123
+/
+
+6
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Constant/pmu_202
+/
+
+7
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Constant/pmu_203
+/
+
+8
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Constant/pmu_207
+/
+
+9
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Constant/pmu_210
+/
+
+10
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Constant/pmu_216
+/
+
+11
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Constant/pmu_221
+/
+
+12
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Constant/pmu_223
+/
+
+13
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Constant/pmu_302
+/
+
+14
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Constant/pmu_303
+/
+
+15
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Constant/pmu_307
+/
+
+16
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Constant/pmu_310
+/
+
+17
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Constant/pmu_316
+/
+
+18
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Constant/pmu_321
+/
+
+19
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Constant/pmu_323
+/
+
+20
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Ramp/Constant/pmu_102
+/
+
+21
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Ramp/Constant/pmu_103
+/
+
+22
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Ramp/Constant/pmu_107
+/
+
+23
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Ramp/Constant/pmu_110
+/
+
+24
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Ramp/Constant/pmu_116
+/
+
+25
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Ramp/Constant/pmu_121
+/
+
+26
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Ramp/Constant/pmu_123
+/
+
+27
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Ramp/Constant/pmu_202
+/
+
+28
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Ramp/Constant/pmu_203
+/
+
+29
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Ramp/Constant/pmu_207
+/
+
+30
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Ramp/Constant/pmu_210
+/
+
+31
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Ramp/Constant/pmu_216
+/
+
+32
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Ramp/Constant/pmu_221
+/
+
+33
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Ramp/Constant/pmu_223
+/
+
+34
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Ramp/Constant/pmu_302
+/
+
+35
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Ramp/Constant/pmu_303
+/
+
+36
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Ramp/Constant/pmu_307
+/
+
+37
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Ramp/Constant/pmu_310
+/
+
+38
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Ramp/Constant/pmu_316
+/
+
+39
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Ramp/Constant/pmu_321
+/
+
+40
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Ramp/Constant/pmu_323
+/
+
+41
+F64
+1
+sm_master/Solver/Time-step (seconds)
+/
+
+43
+F64
+1
+sm_master/bus_va_noise/Random Number/Variance
+/
+
+44
+F64
+1
+sm_master/bus_va_noise/Random Number/Seed
+/
+
+45
+F64
+73
+sm_master/bus_vm_noise/Random Number/Seed
+/
+
+46
+F64
+73
+sm_master/Step1/Time
+/
+
+47
+F64
+1
+sm_master/Step/Time
+/
+
+48
+F64
+1
+sm_master/line_iang0_noise/Random Number/Seed
+/
+
+49
+F64
+104
+sm_master/line_iang1_noise/Random Number/Seed
+/
+
+50
+F64
+104
+sm_master/line_imag0_noise/Random Number/Seed
+/
+
+51
+F64
+104
+sm_master/line_imag1_noise/Random Number/Seed
+/
+
+52
+F64
+104
+sm_master/bus_vm_noise/Random Number/Variance
+/
+
+53
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Saturation/LowerLimit
+/
+
+54
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Saturation/UpperLimit
+/
+
+55
+F64
+1
+sm_master/xf_iang0_noise/Random Number/Seed
+/
+
+56
+F64
+16
+sm_master/xf_iang1_noise/Random Number/Seed
+/
+
+57
+F64
+16
+sm_master/xf_imag0_noise/Random Number/Seed
+/
+
+58
+F64
+16
+sm_master/xf_imag1_noise/Random Number/Seed
+/
+
+59
+F64
+16
+sm_master/PMU102_signals/Spoofing attack/Ramp/Constant1/Value
+/
+
+60
+F64
+1
+sm_master/PMU103_signals/Spoofing attack/Ramp/Constant1/Value
+/
+
+61
+F64
+1
+sm_master/PMU107_signals/Spoofing attack/Ramp/Constant1/Value
+/
+
+62
+F64
+1
+sm_master/PMU110_signals/Spoofing attack/Ramp/Constant1/Value
+/
+
+63
+F64
+1
+sm_master/PMU116_signals/Spoofing attack/Ramp/Constant1/Value
+/
+
+64
+F64
+1
+sm_master/PMU121_signals/Spoofing attack/Ramp/Constant1/Value
+/
+
+65
+F64
+1
+sm_master/PMU123_signals/Spoofing attack/Ramp/Constant1/Value
+/
+
+66
+F64
+1
+sm_master/PMU202_signals/Spoofing attack/Ramp/Constant1/Value
+/
+
+67
+F64
+1
+sm_master/PMU203_signals/Spoofing attack/Ramp/Constant1/Value
+/
+
+68
+F64
+1
+sm_master/PMU207_signals/Spoofing attack/Ramp/Constant1/Value
+/
+
+69
+F64
+1
+sm_master/PMU210_signals/Spoofing attack/Ramp/Constant1/Value
+/
+
+70
+F64
+1
+sm_master/PMU216_signals/Spoofing attack/Ramp/Constant1/Value
+/
+
+71
+F64
+1
+sm_master/PMU221_signals/Spoofing attack/Ramp/Constant1/Value
+/
+
+72
+F64
+1
+sm_master/PMU223_signals/Spoofing attack/Ramp/Constant1/Value
+/
+
+73
+F64
+1
+sm_master/PMU302_signals/Spoofing attack/Ramp/Constant1/Value
+/
+
+74
+F64
+1
+sm_master/PMU303_signals/Spoofing attack/Ramp/Constant1/Value
+/
+
+75
+F64
+1
+sm_master/PMU307_signals/Spoofing attack/Ramp/Constant1/Value
+/
+
+76
+F64
+1
+sm_master/PMU310_signals/Spoofing attack/Ramp/Constant1/Value
+/
+
+77
+F64
+1
+sm_master/PMU316_signals/Spoofing attack/Ramp/Constant1/Value
+/
+
+78
+F64
+1
+sm_master/PMU321_signals/Spoofing attack/Ramp/Constant1/Value
+/
+
+79
+F64
+1
+sm_master/PMU323_signals/Spoofing attack/Ramp/Constant1/Value
+/
+
+80
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Ramp/Step/After
+/
+
+81
+F64
+1
+sm_master/PMU103_signals/Spoofing attack/Ramp/Step/After
+/
+
+82
+F64
+1
+sm_master/PMU107_signals/Spoofing attack/Ramp/Step/After
+/
+
+83
+F64
+1
+sm_master/PMU110_signals/Spoofing attack/Ramp/Step/After
+/
+
+84
+F64
+1
+sm_master/PMU116_signals/Spoofing attack/Ramp/Step/After
+/
+
+85
+F64
+1
+sm_master/PMU121_signals/Spoofing attack/Ramp/Step/After
+/
+
+86
+F64
+1
+sm_master/PMU123_signals/Spoofing attack/Ramp/Step/After
+/
+
+87
+F64
+1
+sm_master/PMU202_signals/Spoofing attack/Ramp/Step/After
+/
+
+88
+F64
+1
+sm_master/PMU203_signals/Spoofing attack/Ramp/Step/After
+/
+
+89
+F64
+1
+sm_master/PMU207_signals/Spoofing attack/Ramp/Step/After
+/
+
+90
+F64
+1
+sm_master/PMU210_signals/Spoofing attack/Ramp/Step/After
+/
+
+91
+F64
+1
+sm_master/PMU216_signals/Spoofing attack/Ramp/Step/After
+/
+
+92
+F64
+1
+sm_master/PMU221_signals/Spoofing attack/Ramp/Step/After
+/
+
+93
+F64
+1
+sm_master/PMU223_signals/Spoofing attack/Ramp/Step/After
+/
+
+94
+F64
+1
+sm_master/PMU302_signals/Spoofing attack/Ramp/Step/After
+/
+
+95
+F64
+1
+sm_master/PMU303_signals/Spoofing attack/Ramp/Step/After
+/
+
+96
+F64
+1
+sm_master/PMU307_signals/Spoofing attack/Ramp/Step/After
+/
+
+97
+F64
+1
+sm_master/PMU310_signals/Spoofing attack/Ramp/Step/After
+/
+
+98
+F64
+1
+sm_master/PMU316_signals/Spoofing attack/Ramp/Step/After
+/
+
+99
+F64
+1
+sm_master/PMU321_signals/Spoofing attack/Ramp/Step/After
+/
+
+100
+F64
+1
+sm_master/PMU323_signals/Spoofing attack/Ramp/Step/After
+/
+
+101
+F64
+1
+sm_master/Constant/Value
+/
+
+104
+F64
+1
+sm_master/Step/Before
+/
+
+105
+F64
+1
+sm_master/Step/After
+/
+
+106
+F64
+1
+sm_master/Step1/Before
+/
+
+107
+F64
+1
+sm_master/Step1/After
+/
+
+108
+F64
+1
+sm_master/Constant2/Value
+/
+
+109
+F64
+1
+sm_master/Constant1/Value
+/
+
+110
+F64
+1
+sm_master/Solver/Number of partitions
+/
+
+116
+F64
+1
+sm_master/Solver/C-API component folder
+/
+
+118
+F64
+4
+sm_master/Solver/FMU component
+/
+
+120
+F64
+3
+sm_master/Solver/Prependable CAPI String
+/
+
+122
+F64
+9
+sm_master/Solver/Prependable FMU String
+/
+
+124
+F64
+8
+sm_master/Solver/Max number of NR iterations
+/
+
+134
+F64
+1
+sm_master/Solver/Power mismatch (max p.u.)
+/
+
+136
+F64
+1
+sm_master/Solver/ 1
+/
+
+138
+F64
+1
+sm_master/Solver/ 2
+/
+
+140
+F64
+1
+sm_master/Solver/ 3
+/
+
+142
+F64
+1
+sm_master/Solver/Optimize number of threads (Windows only)
+/
+
+144
+F64
+1
+sm_master/Solver/Use post-init script
+/
+
+146
+F64
+1
+sm_master/Solver/Turn on performance log
+/
+
+149
+F64
+1
+sm_master/bus_vm_noise/Random Number/Mean
+/
+
+151
+F64
+1
+sm_master/bus_va_noise/Random Number/Mean
+/
+
+152
+F64
+1
+sm_master/Constant3/Value
+/
+
+153
+F64
+1
+sm_master/TSync PCIe Ctrl/Device index
+/
+
+155
+F64
+1
+sm_master/TSync PCIe Ctrl/Holdover timeout (sec)
+/
+
+157
+F64
+1
+sm_master/TSync PCIe Ctrl/Generate timestamp
+/
+
+159
+F64
+1
+sm_master/TSync PCIe Ctrl/Synchronize system time
+/
+
+161
+F64
+1
+sm_master/TSync PCIe Ctrl/Without synchronization, timestamp with:
+/
+
+163
+F64
+1
+sm_master/PMU102_signals/Spoofing attack/Ramp/Step/Before
+/
+
+164
+F64
+1
+sm_master/Gain/Gain
+/
+
+165
+F64
+1
+sm_master/line_iang1_noise/Random Number/Mean
+/
+
+166
+F64
+1
+sm_master/Gain2/Gain
+/
+
+167
+F64
+1
+sm_master/line_iang0_noise/Random Number/Mean
+/
+
+168
+F64
+1
+sm_master/Gain1/Gain
+/
+
+169
+F64
+1
+sm_master/line_imag1_noise/Random Number/Mean
+/
+
+170
+F64
+1
+sm_master/line_imag0_noise/Random Number/Mean
+/
+
+171
+F64
+1
+sm_master/PMU103_signals/Spoofing attack/Ramp/Step/Before
+/
+
+172
+F64
+1
+sm_master/xf_iang0_noise/Random Number/Mean
+/
+
+173
+F64
+1
+sm_master/Gain3/Gain
+/
+
+174
+F64
+1
+sm_master/xf_imag0_noise/Random Number/Mean
+/
+
+175
+F64
+1
+sm_master/PMU107_signals/Spoofing attack/Ramp/Step/Before
+/
+
+176
+F64
+1
+sm_master/PMU110_signals/Spoofing attack/Ramp/Step/Before
+/
+
+177
+F64
+1
+sm_master/PMU116_signals/Spoofing attack/Ramp/Step/Before
+/
+
+178
+F64
+1
+sm_master/PMU121_signals/Spoofing attack/Ramp/Step/Before
+/
+
+179
+F64
+1
+sm_master/PMU123_signals/Spoofing attack/Ramp/Step/Before
+/
+
+180
+F64
+1
+sm_master/PMU202_signals/Spoofing attack/Ramp/Step/Before
+/
+
+181
+F64
+1
+sm_master/PMU203_signals/Spoofing attack/Ramp/Step/Before
+/
+
+182
+F64
+1
+sm_master/PMU207_signals/Spoofing attack/Ramp/Step/Before
+/
+
+183
+F64
+1
+sm_master/PMU210_signals/Spoofing attack/Ramp/Step/Before
+/
+
+184
+F64
+1
+sm_master/PMU216_signals/Spoofing attack/Ramp/Step/Before
+/
+
+185
+F64
+1
+sm_master/PMU221_signals/Spoofing attack/Ramp/Step/Before
+/
+
+186
+F64
+1
+sm_master/PMU223_signals/Spoofing attack/Ramp/Step/Before
+/
+
+187
+F64
+1
+sm_master/PMU302_signals/Spoofing attack/Ramp/Step/Before
+/
+
+188
+F64
+1
+sm_master/PMU303_signals/Spoofing attack/Ramp/Step/Before
+/
+
+189
+F64
+1
+sm_master/PMU307_signals/Spoofing attack/Ramp/Step/Before
+/
+
+190
+F64
+1
+sm_master/PMU310_signals/Spoofing attack/Ramp/Step/Before
+/
+
+191
+F64
+1
+sm_master/PMU316_signals/Spoofing attack/Ramp/Step/Before
+/
+
+192
+F64
+1
+sm_master/PMU321_signals/Spoofing attack/Ramp/Step/Before
+/
+
+193
+F64
+1
+sm_master/PMU323_signals/Spoofing attack/Ramp/Step/Before
+/
+
+194
+F64
+1
+sm_master/xf_iang1_noise/Random Number/Mean
+/
+
+197
+F64
+1
+sm_master/Gain4/Gain
+/
+
+198
+F64
+1
+sm_master/xf_imag1_noise/Random Number/Mean
+/
+
+199
+F64
+1
+sm_master/Frequency_signals/FREQ DEVIATION/Value
+/
+
+200
+F64
+1
+sm_master/Frequency_signals/FREQ ROC/Value
+/
+
+201
+F64
+1

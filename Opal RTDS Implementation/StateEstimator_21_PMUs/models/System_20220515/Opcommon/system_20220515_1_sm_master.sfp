@@ -1,0 +1,48 @@
+[S-Function list]
+system_20220515_1_sm_master/sm_master/Solver=1
+system_20220515_1_sm_master/sm_master/TSync PCIe Ctrl=1
+system_20220515_1_sm_master/sm_master/bus_va_noise/MATLAB Function/ SFunction =0
+system_20220515_1_sm_master/sm_master/line_iang0_noise/MATLAB Function/ SFunction =0
+system_20220515_1_sm_master/sm_master/line_iang1_noise/MATLAB Function/ SFunction =0
+system_20220515_1_sm_master/sm_master/rtlab_send_subsystem/Subsystem1/Send1/S-Function=0
+system_20220515_1_sm_master/sm_master/xf_iang0_noise/MATLAB Function/ SFunction =0
+system_20220515_1_sm_master/sm_master/xf_iang1_noise/MATLAB Function/ SFunction =0
+[S-Function parameters]
+system_20220515_1_sm_master/sm_master/Solver/P13=Max number of NR iterations
+system_20220515_1_sm_master/sm_master/Solver/P14=Power mismatch (max p.u.)
+system_20220515_1_sm_master/sm_master/Solver/P15= 1
+system_20220515_1_sm_master/sm_master/Solver/P16= 2
+system_20220515_1_sm_master/sm_master/Solver/P17= 3
+system_20220515_1_sm_master/sm_master/Solver/P18=Optimize number of threads (Windows only)
+system_20220515_1_sm_master/sm_master/Solver/P19=Use post-init script
+system_20220515_1_sm_master/sm_master/Solver/P2=Time-step (seconds)
+system_20220515_1_sm_master/sm_master/Solver/P20=Post-init script (*.py)
+system_20220515_1_sm_master/sm_master/Solver/P21=Turn on performance log
+system_20220515_1_sm_master/sm_master/Solver/P22=Performance log tag
+system_20220515_1_sm_master/sm_master/Solver/P3=
+system_20220515_1_sm_master/sm_master/Solver/P4=Number of partitions
+system_20220515_1_sm_master/sm_master/Solver/P5=C-API component folder
+system_20220515_1_sm_master/sm_master/Solver/P6=FMU component
+system_20220515_1_sm_master/sm_master/Solver/P7=Prependable CAPI String
+system_20220515_1_sm_master/sm_master/Solver/P8=Prependable FMU String
+system_20220515_1_sm_master/sm_master/TSync PCIe Ctrl/P1=Device index
+system_20220515_1_sm_master/sm_master/TSync PCIe Ctrl/P2=Holdover timeout (sec)
+system_20220515_1_sm_master/sm_master/TSync PCIe Ctrl/P3=Generate timestamp
+system_20220515_1_sm_master/sm_master/TSync PCIe Ctrl/P4=Synchronize system time
+system_20220515_1_sm_master/sm_master/TSync PCIe Ctrl/P5=Without synchronization, timestamp with:
+[S-Function files]
+system_20220515_1_sm_master/sm_master/Solver=OpIRTS
+system_20220515_1_sm_master/sm_master/TSync PCIe Ctrl=sfun_tsync_pcie_ctrl
+system_20220515_1_sm_master/sm_master/bus_va_noise/MATLAB Function/ SFunction =sf_sfun
+system_20220515_1_sm_master/sm_master/line_iang0_noise/MATLAB Function/ SFunction =sf_sfun
+system_20220515_1_sm_master/sm_master/line_iang1_noise/MATLAB Function/ SFunction =sf_sfun
+system_20220515_1_sm_master/sm_master/xf_iang0_noise/MATLAB Function/ SFunction =sf_sfun
+system_20220515_1_sm_master/sm_master/xf_iang1_noise/MATLAB Function/ SFunction =sf_sfun
+[S-Function modules]
+system_20220515_1_sm_master/sm_master/Solver=''
+system_20220515_1_sm_master/sm_master/TSync PCIe Ctrl=''
+system_20220515_1_sm_master/sm_master/bus_va_noise/MATLAB Function/ SFunction =''
+system_20220515_1_sm_master/sm_master/line_iang0_noise/MATLAB Function/ SFunction =''
+system_20220515_1_sm_master/sm_master/line_iang1_noise/MATLAB Function/ SFunction =''
+system_20220515_1_sm_master/sm_master/xf_iang0_noise/MATLAB Function/ SFunction =''
+system_20220515_1_sm_master/sm_master/xf_iang1_noise/MATLAB Function/ SFunction =''

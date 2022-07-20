@@ -1,0 +1,13 @@
+[
+  {"version":2},
+  {
+    "Settings":
+    {
+      "libraryPath":"/usr/opalrt/common/bin/",
+      "masterNodeHttpPort":2525,
+      "modulesPath":"",
+      "outputPath":"C:\\Users\\sudo\\OPAL-RT\\RT-LABv2021.2_Workspace\\StateEstimator_21_PMUs\\models\\System_20220515",
+      "sessionNodesHttpPortFirst":25250
+    }
+  }
+]

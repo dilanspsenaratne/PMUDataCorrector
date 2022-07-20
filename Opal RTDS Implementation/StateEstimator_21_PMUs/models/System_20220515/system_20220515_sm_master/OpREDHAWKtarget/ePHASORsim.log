@@ -1,0 +1,3 @@
+2022-6-29 12h38m8s:KMP_AFFINITY=explicit,proclist=[2-2],verbose
+2022-6-29 12h38m8s:EPHASOR_THREADS is not set -> ePHASORsim can use 1 thread(s). Using default cores configuration [2-2]
+2022-6-29 12h38m8s:Powersystem is not partitioned

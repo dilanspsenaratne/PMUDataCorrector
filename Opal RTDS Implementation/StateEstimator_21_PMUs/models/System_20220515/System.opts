@@ -1,0 +1,5 @@
+format:(number)2|
+format_opts:RTS96_pins_simple_v2.xls|RTS96_psse_stable.raw|Dynamics.dyr|(logical)1|(logical)0|(logical)0|
+lib_opts:'FMU'|(logical)0|
+sim_opts:(logical)1|(logical)1|1|(logical)0|Ts|(logical)0|
+post_init:(logical)0|
