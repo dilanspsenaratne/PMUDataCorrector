@@ -23,8 +23,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The DataCorrector is an IEC 61131 software package for SEL Real-Time Automation Controller (RTAC). The DataCorrector library provides real time 
-Global Position System (GPS) spoofing attacks detection and correction of wide-area synchrophasor data. The library consists two parts. The first part
+The DataCorrector is an IEC 61131 software package for SEL Real-Time Automation Controller (RTAC). The DataCorrector library provides real-time 
+Global Position System (GPS) spoofing attacks detection and correction of wide-area synchrophasor data. The library consists of two parts. The first part
 is a python script to perform data pre-processing of power network information. The python script generates several .csv files that are required in the 
 RTAC data correction library. The second part is a compiled RTAC library of a GPS spoofing attack detection and correction algorithm. The RTAC library 
 captures the incoming phasor measurement units (PMU) measurements and provides GPS spoof corrected measurement, estimated angle biases, 
