@@ -1,0 +1,2311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <TagList>
+    <ExportSource>
+      <Schema>29</Schema>
+      <DeviceMOT>3555</DeviceMOT>
+    </ExportSource>
+    <Name>PMU200_out</Name>
+    <TagListType>C37118</TagListType>
+    <SettingPages>
+      <SettingPage>
+        <Name>Settings</Name>
+        <Row>
+          <Setting enabled="false">
+            <Column>Setting</Column>
+            <Value>Streaming</Value>
+          </Setting>
+          <Setting>
+            <Column>Value</Column>
+            <Value>False</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value />
+          </Setting>
+        </Row>
+        <Row>
+          <Setting enabled="false">
+            <Column>Setting</Column>
+            <Value>Time Reference</Value>
+          </Setting>
+          <Setting>
+            <Column>Value</Column>
+            <Value>PMU200_PMU200.TIMESTAMP</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value />
+          </Setting>
+        </Row>
+        <Row>
+          <Setting enabled="false">
+            <Column>Setting</Column>
+            <Value>Time Variance</Value>
+          </Setting>
+          <Setting>
+            <Column>Value</Column>
+            <Value>2000</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value />
+          </Setting>
+        </Row>
+        <Row>
+          <Setting enabled="false">
+            <Column>Setting</Column>
+            <Value>Quality Reference</Value>
+          </Setting>
+          <Setting>
+            <Column>Value</Column>
+            <Value>PMU200_PMU200.QUALITY</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value />
+          </Setting>
+        </Row>
+        <Row>
+          <Setting enabled="false">
+            <Column>Setting</Column>
+            <Value>Station Name</Value>
+          </Setting>
+          <Setting>
+            <Column>Value</Column>
+            <Value>PMU200_out</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value />
+          </Setting>
+        </Row>
+        <Row>
+          <Setting enabled="false">
+            <Column>Setting</Column>
+            <Value>PMU Id</Value>
+          </Setting>
+          <Setting>
+            <Column>Value</Column>
+            <Value>212</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value />
+          </Setting>
+        </Row>
+        <Row>
+          <Setting enabled="false">
+            <Column>Setting</Column>
+            <Value>Global PMU Id</Value>
+          </Setting>
+          <Setting>
+            <Column>Value</Column>
+            <Value>1</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value />
+          </Setting>
+        </Row>
+        <Row>
+          <Setting enabled="false">
+            <Column>Setting</Column>
+            <Value>PMU Latitude</Value>
+          </Setting>
+          <Setting>
+            <Column>Value</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value />
+          </Setting>
+        </Row>
+        <Row>
+          <Setting enabled="false">
+            <Column>Setting</Column>
+            <Value>PMU Longitude</Value>
+          </Setting>
+          <Setting>
+            <Column>Value</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value />
+          </Setting>
+        </Row>
+        <Row>
+          <Setting enabled="false">
+            <Column>Setting</Column>
+            <Value>PMU Elevation</Value>
+          </Setting>
+          <Setting>
+            <Column>Value</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value />
+          </Setting>
+        </Row>
+      </SettingPage>
+      <SettingPage>
+        <Name>Frequency</Name>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>FREQ</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.FREQ</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>MV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>DF_DT</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.DF_DT</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>MV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+      </SettingPage>
+      <SettingPage>
+        <Name>Status</Name>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>False</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>TREA</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.TREA</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>INS</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Status Value</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>False</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>PMTRIG</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.PMTRIG</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>SPS</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Status Value</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>False</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>DATAMOD</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.DATAMOD</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>SPS</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Status Value</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+      </SettingPage>
+      <SettingPage>
+        <Name>Phasors</Name>
+        <Commands>
+          <AddItems>
+            <Quantity>41</Quantity>
+          </AddItems>
+        </Commands>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B202_V</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Voltage</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B202_V</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B202_I1</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B202_I1</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B202_I2</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B202_I2</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B202_I3</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B202_I3</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B203_V</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Voltage</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B203_V</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B203_I1</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B203_I1</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B203_I2</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B203_I2</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B203_I3</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B203_I3</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B203_I4</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B203_I4</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B207_V</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Voltage</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B207_V</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B207_I1</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B207_I1</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B210_V</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Voltage</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B210_V</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B210_I1</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B210_I1</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B210_I2</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B210_I2</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B210_I3</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B210_I3</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B210_I4</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B210_I4</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B210_I5</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B210_I5</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B216_V</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Voltage</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B216_V</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B216_I1</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B216_I1</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B216_I2</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B216_I2</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B216_I3</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B216_I3</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B216_I4</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B216_I4</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B221_V</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Voltage</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B221_V</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B221_I1</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B221_I1</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B221_I2</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B221_I2</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B221_I3</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B221_I3</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B221_I4</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B221_I4</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B221_I5</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B221_I5</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B223_V</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Voltage</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B223_V</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B223_I1</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B223_I1</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B223_I2</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B223_I2</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B223_I3</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B223_I3</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B223_I4</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B223_I4</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B223_I5</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Current</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B223_I5</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B202_V_raw</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Voltage</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B202_V_raw</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B203_V_raw</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Voltage</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B203_V_raw</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B207_V_raw</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Voltage</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B207_V_raw</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B210_V_raw</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Voltage</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B210_V_raw</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B216_V_raw</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Voltage</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B216_V_raw</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B221_V_raw</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Voltage</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B221_V_raw</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B223_V_raw</Value>
+          </Setting>
+          <Setting>
+            <Column>Phasor Type</Column>
+            <Value>Voltage</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B223_V_raw</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>CMV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Angle</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+      </SettingPage>
+      <SettingPage>
+        <Name>Analogs</Name>
+        <Commands>
+          <AddItems>
+            <Quantity>7</Quantity>
+          </AddItems>
+        </Commands>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B202_bias</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B202_bias</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>MV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B203_bias</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B203_bias</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>MV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B207_bias</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B207_bias</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>MV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B210_bias</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B210_bias</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>MV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B216_bias</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B216_bias</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>MV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B221_bias</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B221_bias</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>MV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Enable</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Channel Name</Column>
+            <Value>B223_bias</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Reference</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Name</Column>
+            <Value>PMU200_out.B223_bias</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Type</Column>
+            <Value>MV</Value>
+          </Setting>
+          <Setting>
+            <Column>Tag Alias</Column>
+            <Value></Value>
+          </Setting>
+          <Setting>
+            <Column>Magnitude</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value></Value>
+          </Setting>
+        </Row>
+      </SettingPage>
+      <SettingPage>
+        <Name>Digitals</Name>
+      </SettingPage>
+    </SettingPages>
+  </TagList>
+</RTACModule>

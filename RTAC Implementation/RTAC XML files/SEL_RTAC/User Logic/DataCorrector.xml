@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <UserLibrary>
+    <ExportSource>
+      <Schema>29</Schema>
+      <DeviceMOT>3555</DeviceMOT>
+    </ExportSource>
+    <Name>DataCorrector</Name>
+    <Company>OSU</Company>
+    <Title>DataCorrector</Title>
+    <Version>1.0.0.11</Version>
+  </UserLibrary>
+</RTACModule>

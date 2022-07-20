@@ -1,0 +1,2753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <Device>
+    <ExportSource>
+      <Schema>29</Schema>
+      <DeviceMOT>3555</DeviceMOT>
+    </ExportSource>
+    <Name>PMU100</Name>
+    <Manufacturer>Any</Manufacturer>
+    <Model>Other</Model>
+    <Connection>
+      <Protocol>C37118Client</Protocol>
+      <ConnectionType>Ethernet</ConnectionType>
+      <SettingPages>
+        <SettingPage>
+          <Name>Settings</Name>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>PDC Id</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>1</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Time Variance</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>2000</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Transport Scheme</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>TCP</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Server IP Address</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>10.214.153.69</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Server IP Port</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>4712</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Client IP Port</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Multicast</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Multicast Group IP Address</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>224.0.1.0</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Ethernet Port</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>Any</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+        </SettingPage>
+        <SettingPage>
+          <Name>PMUs</Name>
+          <Commands>
+            <AddItems>
+              <Quantity>1</Quantity>
+            </AddItems>
+          </Commands>
+          <Row>
+            <Setting>
+              <Column>Station Name</Column>
+              <Value>PMU100</Value>
+            </Setting>
+            <Setting>
+              <Column>Pmu Id</Column>
+              <Value>1</Value>
+            </Setting>
+          </Row>
+        </SettingPage>
+        <SettingPage>
+          <Name>POU Pin Settings</Name>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Auto_Configuration_Failure</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Auto_Configuration_Pending</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Command_Sent_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Configuration_Change_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Configuration_Received_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Data_Received_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Disable_Tag_Updates</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Duplicate_Data_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>EN</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>TRUE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>ENO</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Invalid_Configuration_Pdc_Id_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Invalid_Data_Pdc_Id_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Invalid_Data_Rate_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Invalid_Data_Size_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Invalid_Nominal_Frequency_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Invalid_Pmu_Id_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Invalid_Pmu_Station_Name_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Message_Failure</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Message_Failure_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Message_Received_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Message_Sent_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Message_Success_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Missed_Data_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Offline</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>TRUE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Past_Data_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Reconfigure</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Reset_Statistics</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Unexpected_Message_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Unresolved_Tag_Reference_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Unresolved_Tag_Reference_Error</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+        </SettingPage>
+      </SettingPages>
+      <ControllerPOU><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Single xml:space="preserve" Type="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" Method="IArchivable">
+  <Single Name="SpecialFunc" Type="{0db3d7bb-cde0-4416-9a7b-ce49a0124323}">None</Single>
+  <Single Name="Implementation" Type="{32d3375e-c010-41e2-9e43-b2fbf4f2b374}" Method="IArchivable">
+    <Single Name="Items" Type="{cd57ba20-558b-4b98-96c1-73c6000c3087}" Method="IArchivable">
+      <List2 Name="InnerList">
+        <Single Type="{f5becf35-b1f3-4274-b411-81d4b63a1516}" Method="IArchivable">
+          <Single Name="Inputs" Type="{cd57ba20-558b-4b98-96c1-73c6000c3087}" Method="IArchivable">
+            <List2 Name="InnerList">
+              <Single Type="{c994f6e0-311a-4a1c-bc38-75fe34892406}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="IsExtensiblePin" Type="bool">False</Single>
+                <Single Name="ProcessValue" Type="string"></Single>
+                <Single Name="Access" Type="{88453c7d-d652-4a27-a1b0-a1953be49a5c}">None</Single>
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">11</Single>
+              </Single>
+              <Single Type="{c994f6e0-311a-4a1c-bc38-75fe34892406}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="IsExtensiblePin" Type="bool">False</Single>
+                <Single Name="ProcessValue" Type="string"></Single>
+                <Single Name="Access" Type="{88453c7d-d652-4a27-a1b0-a1953be49a5c}">None</Single>
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">13</Single>
+              </Single>
+              <Single Type="{c994f6e0-311a-4a1c-bc38-75fe34892406}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="IsExtensiblePin" Type="bool">False</Single>
+                <Single Name="ProcessValue" Type="string"></Single>
+                <Single Name="Access" Type="{88453c7d-d652-4a27-a1b0-a1953be49a5c}">None</Single>
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">15</Single>
+              </Single>
+              <Single Type="{c994f6e0-311a-4a1c-bc38-75fe34892406}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="IsExtensiblePin" Type="bool">False</Single>
+                <Single Name="ProcessValue" Type="string"></Single>
+                <Single Name="Access" Type="{88453c7d-d652-4a27-a1b0-a1953be49a5c}">None</Single>
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">17</Single>
+              </Single>
+            </List2>
+          </Single>
+          <Single Name="Outputs" Type="{cd57ba20-558b-4b98-96c1-73c6000c3087}" Method="IArchivable">
+            <List2 Name="InnerList">
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">19</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">21</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">23</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">25</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">27</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">29</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">31</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">33</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">35</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">37</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">39</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">58</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">60</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">62</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">64</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">66</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">68</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">70</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">72</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">74</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">76</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">78</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">80</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">56</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">82</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">84</Single>
+              </Single>
+            </List2>
+          </Single>
+          <Single Name="Texts" Type="{cd57ba20-558b-4b98-96c1-73c6000c3087}" Method="IArchivable">
+            <List2 Name="InnerList">
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">EN</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">12</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Disable_Tag_Updates</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">14</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Reconfigure</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">16</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Reset_Statistics</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">18</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">ENO</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">20</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Offline</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">22</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Message_Sent_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">24</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Message_Received_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">26</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Message_Failure</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">28</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Message_Failure_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">30</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Message_Success_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">32</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Auto_Configuration_Pending</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">34</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Auto_Configuration_Failure</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">36</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Unresolved_Tag_Reference_Error</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">38</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Unresolved_Tag_Reference_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">40</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Configuration_Received_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">59</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Data_Received_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">61</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Command_Sent_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">63</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Unexpected_Message_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">65</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Invalid_Configuration_Pdc_Id_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">67</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Invalid_Pmu_Station_Name_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">69</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Invalid_Pmu_Id_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">71</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Invalid_Data_Rate_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">73</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Invalid_Nominal_Frequency_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">75</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Invalid_Data_Pdc_Id_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">77</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Invalid_Data_Size_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">79</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Configuration_Change_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">81</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Missed_Data_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">57</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Duplicate_Data_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">83</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Past_Data_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">85</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">PMU100_C37_118_POU_TYPE</Single>
+                <Single Name="Modifiable" Type="bool">False</Single>
+                <Single Name="Id" Type="long">9</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">PMU100_C37_118_POU</Single>
+                <Single Name="Modifiable" Type="bool">False</Single>
+                <Single Name="Id" Type="long">10</Single>
+              </Single>
+            </List2>
+          </Single>
+          <Single Name="Parameters" Type="{cd57ba20-558b-4b98-96c1-73c6000c3087}" Method="IArchivable">
+            <List2 Name="InnerList" />
+          </Single>
+          <Null Name="PreparedParameters" />
+          <Single Name="PageArea" Type="int">0</Single>
+          <Single Name="Bounds" Type="string">3, 0, 0, 0</Single>
+          <Null Name="ElementGroupId" />
+          <Single Name="EnEno" Type="bool">False</Single>
+          <Single Name="KindOfCall" Type="{77f43dfe-ca6a-4869-828f-7609d8ed6ea6}">FunctionBlock</Single>
+          <Single Name="ContainsExtensibleInputs" Type="bool">False</Single>
+          <Single Name="Forced" Type="bool">False</Single>
+          <Single Name="OwningPageId" Type="long">-1</Single>
+          <Single Name="Id" Type="long">8</Single>
+        </Single>
+      </List2>
+    </Single>
+    <Null Name="ParameterInitializationMethodGenerator" />
+    <Single Name="RoutingPathTable" Type="{4b8bcc79-5980-4868-b49e-005a8148859b}" Method="IArchivable">
+      <Dictionary2 Name="InnerDictionary" />
+    </Single>
+    <Single Name="AutoSizeCanvas" Type="bool">True</Single>
+    <Single Name="CanvasWidth" Type="int">2</Single>
+    <Single Name="CanvasHeight" Type="int">2</Single>
+  </Single>
+  <Single Name="Interface" Type="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Method="IArchivable">
+    <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+      <Array Name="TextLines" Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}">
+        <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+          <Single Name="Id" Type="long">48</Single>
+          <Null Name="Tag" />
+          <Single Name="Text" Type="string">PROGRAM PMU100_C37_118_Controller</Single>
+        </Single>
+        <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+          <Single Name="Id" Type="long">49</Single>
+          <Null Name="Tag" />
+          <Single Name="Text" Type="string">VAR</Single>
+        </Single>
+        <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+          <Single Name="Id" Type="long">50</Single>
+          <Null Name="Tag" />
+          <Single Name="Text" Type="string">END_VAR</Single>
+        </Single>
+        <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+          <Single Name="Id" Type="long">51</Single>
+          <Null Name="Tag" />
+          <Single Name="Text" Type="string">VAR_EXTERNAL</Single>
+        </Single>
+        <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+          <Single Name="Id" Type="long">52</Single>
+          <Null Name="Tag" />
+          <Single Name="Text" Type="string">	PMU100_C37_118_POU:PMU100_C37_118_POU_TYPE;</Single>
+        </Single>
+        <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+          <Single Name="Id" Type="long">53</Single>
+          <Null Name="Tag" />
+          <Single Name="Text" Type="string">END_VAR</Single>
+        </Single>
+        <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+          <Single Name="Id" Type="long">54</Single>
+          <Null Name="Tag" />
+          <Single Name="Text" Type="string"></Single>
+        </Single>
+        <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+          <Single Name="Id" Type="long">55</Single>
+          <Null Name="Tag" />
+          <Single Name="Text" Type="string"></Single>
+        </Single>
+        <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+          <Single Name="Id" Type="long">1</Single>
+          <Null Name="Tag" />
+          <Single Name="Text" Type="string"></Single>
+        </Single>
+      </Array>
+    </Single>
+  </Single>
+  <Single Name="UniqueIdGenerator" Type="string">85</Single>
+  <Single Name="POULevel" Type="{8e575c5b-1d37-49c6-941b-5c0ec7874787}">Standard</Single>
+  <List Name="ChildObjectGuids" Type="System.Collections.ArrayList" />
+  <Single Name="AddAttributeSubsequent" Type="bool">False</Single>
+</Single>]]></ControllerPOU>
+      <PMUs>
+        <PMU>
+          <ClientPMUType>C37118ClientPMU</ClientPMUType>
+          <ClientPMUData>
+            <Name>PMU100</Name>
+            <SettingPages>
+              <SettingPage>
+                <Name>Status</Name>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>TIMESTAMP</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.TIMESTAMP</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>timeStamp_t</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>QUALITY</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.QUALITY</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>quality_t</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>PMSTN</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>False</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.PMSTN</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>STR</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>PMID</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>False</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.PMID</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>INS</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>TREA</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>False</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.TREA</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>INS</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>PMTRIG</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>False</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.PMTRIG</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>SPS</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+              </SettingPage>
+              <SettingPage>
+                <Name>Frequency</Name>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>FREQ</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.FREQ</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>MV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>DF_DT</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.DF_DT</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>MV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+              </SettingPage>
+              <SettingPage>
+                <Name>Phasors</Name>
+                <Commands>
+                  <AddItems>
+                    <Quantity>35</Quantity>
+                  </AddItems>
+                </Commands>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B102_V</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B102_V</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B102_I1</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B102_I1</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B102_I2</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B102_I2</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B102_I3</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B102_I3</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B103_V</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B103_V</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B103_I1</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B103_I1</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B103_I2</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B103_I2</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B103_I3</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B103_I3</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B107_V</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B107_V</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B107_I1</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B107_I1</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B107_I2</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B107_I2</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B110_V</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B110_V</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B110_I1</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B110_I1</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B110_I2</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B110_I2</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B110_I3</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B110_I3</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B110_I4</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B110_I4</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B110_I5</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B110_I5</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B116_V</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B116_V</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B116_I1</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B116_I1</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B116_I2</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B116_I2</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B116_I3</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B116_I3</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B116_I4</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B116_I4</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B121_V</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B121_V</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B121_I1</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B121_I1</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B121_I2</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B121_I2</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B121_I3</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B121_I3</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B121_I4</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B121_I4</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B121_I5</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B121_I5</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B121_I6</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B121_I6</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B123_V</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B123_V</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B123_I1</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B123_I1</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B123_I2</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B123_I2</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B123_I3</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B123_I3</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B123_I4</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B123_I4</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+                <Row>
+                  <Setting>
+                    <Column>Enable</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Channel Name</Column>
+                    <Value>B123_I5</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Enable Tag</Column>
+                    <Value>True</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Name</Column>
+                    <Value>PMU100_PMU100.B123_I5</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Type</Column>
+                    <Value>CMV</Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Tag Alias</Column>
+                    <Value></Value>
+                  </Setting>
+                  <Setting>
+                    <Column>Comment</Column>
+                    <Value></Value>
+                  </Setting>
+                </Row>
+              </SettingPage>
+              <SettingPage>
+                <Name>Analogs</Name>
+              </SettingPage>
+              <SettingPage>
+                <Name>Digitals</Name>
+              </SettingPage>
+            </SettingPages>
+          </ClientPMUData>
+        </PMU>
+      </PMUs>
+    </Connection>
+  </Device>
+</RTACModule>
