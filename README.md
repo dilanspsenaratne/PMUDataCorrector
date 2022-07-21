@@ -14,7 +14,13 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-	<li><a href="#Testbed Implementation">Testbed Implementation</a></li>
+	<li>
+		<a href="#Testbed Implementation">Testbed Implementation</a>
+		<ul>
+			<li><a href="#opal-rtds-implementation">Opal RTDS Implementation</a></li>
+			<li><a href="#sel-synchrowave-operations">SEL Synchrowave Operations</a></li>
+      </ul>
+	</li>
     <li><a href="#Authors">Authors</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
