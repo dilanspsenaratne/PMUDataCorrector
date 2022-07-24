@@ -1,0 +1,49 @@
+<RTACModule>
+  <LogicEngineObject>
+    <Name>fun_SetDiff</Name>
+    <Type>Function</Type>
+    <Interface><![CDATA[FUNCTION fun_SetDiff : ARRAY [0 .. Length_max_low_GB-1] OF BYTE  // Returns the set of entries in the array [1 .. idx] which are not in the array y.
+VAR_INPUT
+	y  : ARRAY [0 .. Length_max_low_GB-1] OF BYTE ;
+	idx : UINT;
+END_VAR
+
+VAR
+	all : ARRAY [0 .. Length_max_low_GB-1] OF BYTE;
+	out : ARRAY [0 .. Length_max_low_GB-1] OF BYTE;
+    itr : UINT;
+	pt_byteVector : POINTER TO DynamicVectors.class_ByteVector();
+	count :UINT := 0;
+	dump :BYTE := 0;
+	i : UINT :=0;
+END_VAR
+
+]]></Interface>
+    <Implementation><![CDATA[FOR i:=1 TO idx DO
+	all[i-1] := INT_TO_BYTE(i);
+END_FOR
+
+pt_byteVector := fun_NewTypeVector(BYTE_VECTOR);
+pt_byteVector^.Append(ADR(all),Length_max_low_GB);
+FOR itr := 0 TO Length_max_low_GB -1 DO
+	IF y[itr] > 0 THEN
+		pt_byteVector^.SetAt(y[itr]-1,0);
+	END_IF
+END_FOR
+FOR itr := 0 TO Length_max_low_GB-1 DO	
+ pt_byteVector^.GetAt(itr, element => dump);
+ IF dump >0 THEN
+	 out[count] := dump;
+	 count := count + 1;
+ END_IF
+END_FOR
+
+fun_SetDiff := out;
+fun_DeleteVector(pt_byteVector^);
+]]></Implementation>
+    <Metadata><![CDATA[<Single xml:space="preserve" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+  <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
+  <Single Name="TypeGuid" Type="System.Guid">6f9dac99-8de1-4efc-8465-68ac443b7d08</Single>
+</Single>]]></Metadata>
+  </LogicEngineObject>
+</RTACModule>

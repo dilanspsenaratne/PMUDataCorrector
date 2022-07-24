@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <MainController>
+    <ExportSource>
+      <Schema>29</Schema>
+      <DeviceMOT>3555</DeviceMOT>
+    </ExportSource>
+    <MainTask>
+      <CycleTime>16</CycleTime>
+      <WatchdogTime>45000</WatchdogTime>
+      <POUs useDefaultOrder="false">
+        <Item>
+          <Enabled>true</Enabled>
+          <Name>PMU100_C37_118</Name>
+        </Item>
+        <Item>
+          <Enabled>true</Enabled>
+          <Name>PMU200_C37_118</Name>
+        </Item>
+        <Item>
+          <Enabled>true</Enabled>
+          <Name>PMU300_C37_118</Name>
+        </Item>
+        <Item>
+          <Enabled>true</Enabled>
+          <Name>pg_main</Name>
+        </Item>
+        <Item>
+          <Enabled>true</Enabled>
+          <Name>Tag Processor</Name>
+        </Item>
+        <Item>
+          <Enabled>true</Enabled>
+          <Name>Synchrowave_PMU100_C37_118</Name>
+        </Item>
+        <Item>
+          <Enabled>true</Enabled>
+          <Name>Synchrowave_PMU200_C37_118</Name>
+        </Item>
+        <Item>
+          <Enabled>true</Enabled>
+          <Name>Synchrowave_PMU300_C37_118</Name>
+        </Item>
+      </POUs>
+    </MainTask>
+    <Task>
+      <Name>Automation</Name>
+      <CycleTime>1000</CycleTime>
+      <WatchdogTime>15000</WatchdogTime>
+    </Task>
+  </MainController>
+</RTACModule>

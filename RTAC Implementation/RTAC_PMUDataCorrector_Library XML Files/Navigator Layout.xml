@@ -1,0 +1,56 @@
+<RTACModule>
+  <NavigatorLayout Name="RTAC_PMUDataCorrector_Library">
+    <Items>
+      <Item Name="Extensions" />
+      <Item Name="SEL_RTAC">
+        <Items>
+          <Item Name="Devices" IsFolder="true">
+            <Items>
+              <Item Name="PMU100_C37_118">
+                <Items>
+                  <Item Name="PMU100" />
+                </Items>
+              </Item>
+              <Item Name="PMU200_C37_118">
+                <Items>
+                  <Item Name="PMU200" />
+                </Items>
+              </Item>
+              <Item Name="PMU300_C37_118">
+                <Items>
+                  <Item Name="PMU300" />
+                </Items>
+              </Item>
+              <Item Name="Synchrowave_PMU100_C37_118" />
+              <Item Name="Synchrowave_PMU200_C37_118" />
+              <Item Name="Synchrowave_PMU300_C37_118" />
+              <Item Name="PMU100_out" />
+              <Item Name="PMU200_out" />
+              <Item Name="PMU300_out" />
+            </Items>
+          </Item>
+          <Item Name="Tag Processor" />
+          <Item Name="Tags" />
+          <Item Name="System" IsFolder="true">
+            <Items>
+              <Item Name="Main Controller" />
+              <Item Name="System_Time_Control" />
+              <Item Name="SystemTags" />
+              <Item Name="Contact I/O" />
+            </Items>
+          </Item>
+          <Item Name="Access Points" IsFolder="true" />
+          <Item Name="Access Point Routers" IsFolder="true" />
+          <Item Name="User Logic" IsFolder="true">
+            <Items>
+              <Item Name="GVL1" />
+              <Item Name="pg_main" />
+              <Item Name="PMUDataCorrector" />
+            </Items>
+          </Item>
+          <Item Name="Virtual Tag Lists" IsFolder="true" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigatorLayout>
+</RTACModule>
