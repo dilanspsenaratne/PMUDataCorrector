@@ -4,7 +4,13 @@ authors:
   - family-names: Senaratne
     given-names: Dilan
   - family-names: Hagan 
-    given-names: Travis	
+    given-names: Travis
+  - family-names: De Silva
+    given-names: Shashini 
+  - family-names: Cotilla-Sanchez 
+    given-names: Eduardo 
+  - family-names: Kim  
+    given-names: Jinsub 		
 title: "PMUDataCorrector"
 version: 1.0.0.11
 date-released: 2022-07-27
