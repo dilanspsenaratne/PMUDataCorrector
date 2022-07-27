@@ -114,8 +114,8 @@ These files are the configuration files for the project visualization in SEL Syn
 - Dilan Senaratne (senaratg@oregonstate.edu - Oregon State University, US)
 - Travis Hagan (hagantr@oregonstate.edu - Oregon State University, US)
 - Shashini De Silva (desilvas@oregonstate.edu - Oregon State University, US)
-- Jinsub Kim (kimjinsu@oregonstate.edu - Oregon State University, US)
 - Eduardo Cotilla-Sanchez (ecs@oregonstate.edu - Oregon State University, US)
+- Jinsub Kim (kimjinsu@oregonstate.edu - Oregon State University, US)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
